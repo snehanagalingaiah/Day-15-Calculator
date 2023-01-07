@@ -1,0 +1,37 @@
+*{
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#description {
+    text-align:center;
+}
+
+.container-calc{
+  background-color: rgb(204, 204, 215);
+  margin: 30px auto;
+  height: 300px;
+  width:250px;
+}
+
+.row input{
+    width:180px;
+    height:40px;
+    margin-top: 20px;
+    background-color: rgb(175, 175, 224);
+}
+
+.row button{
+    width:40px;
+    box-sizing: border-box;
+    padding: 5;
+    margin: 5px; 
+}
+
+.row button:active{
+    background-color:blue;
+    border-color: blue;
+}
